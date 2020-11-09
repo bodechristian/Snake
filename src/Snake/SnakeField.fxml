@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<FlowPane xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="Snake.ContrSnake" alignment="CENTER">
+	<Button text="Restart" onAction="#restartGame"/>
+	<GridPane fx:id="snakeGrid" minHeight="800" minWidth="800"
+		focusTraversable="false" alignment="CENTER">
+	</GridPane>
+</FlowPane>
+
